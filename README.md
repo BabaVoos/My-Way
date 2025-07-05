@@ -1,16 +1,32 @@
-# my_way
+# 🗺️ My Way
 
-A new Flutter project.
+A simple Flutter app built as an experiment using [`flutter_map`](https://pub.dev/packages/flutter_map) instead of Google Maps.
 
-## Getting Started
+## 📸 Screenshots
 
-This project is a starting point for a Flutter application.
+### 🧭 Location with User Circle
+<img src="screenshots/1.png" width="100%" />
 
-A few resources to get you started if this is your first Flutter project:
+### 📍 Selected Marker & Distance Display
+<img src="screenshots/2.png" width="100%" />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🗺️ Route Based on Drive Mode
+<img src="screenshots/3.png" width="100%" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎯 Purpose
+
+This app is a **practice project** to explore working with:
+- `flutter_map` for rendering maps
+- Location services using `geolocator`
+- Route drawing and polyline handling
+
+
+## 🛠 Packages Used
+
+- [`flutter_map`](https://pub.dev/packages/flutter_map)
+- [`latlong2`](https://pub.dev/packages/latlong2)
+- [`geolocator`](https://pub.dev/packages/geolocator)
+
+---
+
+Feel free to explore, fork, or play around with it ✌️
